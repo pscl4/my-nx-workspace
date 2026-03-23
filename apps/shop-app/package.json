@@ -1,7 +1,10 @@
 {
-  "name": "@react-demo/react-demo",
+  "name": "@react-demo/shop-app",
   "version": "0.0.1",
   "private": true,
+  "nx": {
+    "name": "shop-app"
+  },
   "dependencies": {
     "@react-demo/shared-utils": "*"
   }

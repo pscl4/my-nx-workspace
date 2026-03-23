@@ -8,6 +8,15 @@
     },
     {
       "path": "./packages/ui"
+    },
+    {
+      "path": "./apps/shop-app-e2e"
+    },
+    {
+      "path": "./apps/shop-app"
+    },
+    {
+      "path": "./libs/shared-utils"
     }
   ]
 }

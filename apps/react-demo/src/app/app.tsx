@@ -1,21 +1,17 @@
-// Uncomment this line to use CSS modules
-// import styles from './app.module.css';
-import NxWelcome from './nx-welcome';
-
-import { Route, Routes, Link } from 'react-router-dom';
-
+import { formatDate } from '@react-demo/shared-utils';
 import { Hero } from '@react-demo/ui';
 
-
 export function App() {
+  const today = formatDate(new Date());
+
   return (
     <div>
-      <h1>Home</h1>
       <Hero
-        title="Welcmoe to our Demo"
+        title="Welcome to React Demo"
         subtitle="Build something amazing today"
         cta="Get Started"
       />
+      <p>Today is: {today}</p>
     </div>
   );
 }
